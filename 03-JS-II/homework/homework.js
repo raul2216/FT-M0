@@ -119,7 +119,7 @@ function estaEnRango(numero) {
   // Tu código:
   if (numero < 50 && numero > 20)
   return true;
-  return false; 
+  else return false; 
 }
 
 function esEntero(numero) {
@@ -172,7 +172,7 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
 
 if(numero === 0 || numero === 1) return false;
-for(i = 2; i < numero; i++) {
+for(i = 4; i < numero; i++) {
 if(numero % i === 0) {
 return false;
   }
